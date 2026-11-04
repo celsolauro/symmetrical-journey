@@ -58,7 +58,7 @@ O visual, os KPIs, as barras, os filtros, a ordenação, o modal, o tema escuro 
 
 ## Papéis IAM
 
-Se você é **Proprietário** do seu próprio projeto `celsolauro-org`, não é preciso conceder nada. Se não for, o administrador deve conceder à sua conta somente estes papéis:
+Se você é **Proprietário** do seu próprio projeto `surrebiflu-1`, não é preciso conceder nada. Se não for, o administrador deve conceder à sua conta somente estes papéis:
 
 - `roles/serviceusage.serviceUsageAdmin`: ativar as APIs, uma única vez
 - `roles/iam.serviceAccountCreator`: criar a conta de serviço, uma única vez
@@ -84,13 +84,13 @@ Acesse https://shell.cloud.google.com com `celsolauro@gmail.com`. O Cloud Shell 
 
 ```bash
 cd escola-das-artes/cloudrun
-gcloud config set project celsolauro-org
+gcloud config set project surrebiflu-1
 ./deploy/deploy.sh verificar        # somente leitura
 ./deploy/deploy.sh preparar         # ativa APIs e cria a conta de serviço (pede confirmação)
 ```
 
 ### Manual 3: compartilhar a planilha privada com a conta de serviço
-Compartilhe com `escola-artes-leitor@celsolauro-org.iam.gserviceaccount.com` como **Leitor** e desmarque "Notificar pessoas".
+Compartilhe com `escola-artes-leitor@surrebiflu-1.iam.gserviceaccount.com` como **Leitor** e desmarque "Notificar pessoas".
 
 ### Publicar e testar
 ```bash

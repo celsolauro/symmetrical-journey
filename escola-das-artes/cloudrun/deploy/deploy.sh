@@ -11,7 +11,7 @@
 #   ./deploy/deploy.sh bloquear             # emergência: corta todo acesso externo ao serviço
 set -euo pipefail
 
-PROJECT_ID="${PROJECT_ID:-celsolauro-org}"
+PROJECT_ID="${PROJECT_ID:-surrebiflu-1}"
 REGION="${REGION:-us-central1}"
 SERVICE="${SERVICE:-escola-das-artes}"
 SA_NAME="${SA_NAME:-escola-artes-leitor}"
