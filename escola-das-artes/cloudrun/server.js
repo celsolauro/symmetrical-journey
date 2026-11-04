@@ -36,7 +36,7 @@ const STATIC_FILES = {
   '/index.html': ['index.html', 'text/html; charset=utf-8'],
   '/app.js': ['app.js', 'text/javascript; charset=utf-8'],
   '/assets/logo-escola-das-artes.png': ['assets/logo-escola-das-artes.png', 'image/png'],
-  '/apple-touch-icon.png': ['assets/logo-escola-das-artes.png', 'image/png'],
+  '/apple-touch-icon.png': ['assets/apple-touch-icon.png', 'image/png'],
   '/favicon.ico': ['assets/logo-escola-das-artes.png', 'image/png']
 };
 const STATIC_CACHE = new Map(
