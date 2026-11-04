@@ -1,0 +1,12 @@
+{
+  "name": "escola-das-artes-painel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Painel Escola das Artes 2027 para Cloud Run protegido por IAP",
+  "main": "server.js",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  }
+}

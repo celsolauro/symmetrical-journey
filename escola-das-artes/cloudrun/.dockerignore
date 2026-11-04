@@ -1,0 +1,7 @@
+test/
+deploy/
+*.md
+.git
+.gcloudignore
+.dockerignore
+node_modules

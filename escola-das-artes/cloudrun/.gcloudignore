@@ -1,0 +1,7 @@
+# Envia ao Cloud Build somente o necessário para a imagem.
+.gcloudignore
+.git
+test/
+deploy/
+*.md
+node_modules
